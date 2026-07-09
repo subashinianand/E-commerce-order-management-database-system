@@ -1,7 +1,6 @@
-# E-Commerce Order Management Database System
+#BuySmart E-Commerce Order Management Database System
 
- Project Title
-E-Commerce Order Management Database System
+ Week 1 – Requirement Analysis ,BRD,SRS
 
 ---
 
