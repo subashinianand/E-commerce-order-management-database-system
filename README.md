@@ -91,57 +91,24 @@ The documentation serves as the foundation for future database design, ER modeli
 
 ---
 
-## Repository
+WEEK-2
 
-Upload all project documents to your GitHub repository and include the repository link during submission.
-
-
-Week 2
 Entity Analysis & Entity Relationship Analysis
-ShopEasy – E-Commerce Order Management Database System
-Project Overview
 
-This repository contains the Week 2 Database Design documents for the ShopEasy – E-Commerce Order Management Database System. The main objective of this phase is to analyze the data requirements of the system and prepare a structured database design before implementation.
+Objective
 
-The project identifies all required entities, their attributes, primary keys, foreign keys, database constraints, and the relationships between entities. This analysis helps create an efficient, scalable, and normalized database for managing customers, products, orders, payments, shipments, and suppliers.
+The objective of this task is to identify the entities involved in the E-Commerce Order Management System, define their attributes, primary keys, foreign keys, and analyze the relationships between them. This helps in designing an efficient and well-structured database.
 
-Project Objectives
-Identify all entities required for the system.
-Define attributes for each entity.
-Identify Primary Keys (PK) and Foreign Keys (FK).
-Apply database constraints.
-Analyze relationships between entities.
-Define relationship cardinality.
-Prepare the database for ER Diagram creation and SQL implementation.
-Files Included
-1. Entity Analysis Report.docx
-
-This document includes:
-
-Introduction
-Objectives
-Entity Identification
-Entity Attributes
-Primary Key Identification
-Foreign Key Identification
-Database Constraints
-Summary
-Conclusion
-2. ENTITY RELATIONSHIP ANALYSIS REPORT.docx
-
-This document includes:
-
-Introduction
-Relationship Analysis
-Cardinality Analysis
-Relationship Summary
-Entity Relationship Summary
-Benefits of ER Analysis
-Conclusion
+Task Performed
+Identified all entities in the system.
+Defined attributes for each entity.
+Assigned Primary Keys (PK) and Foreign Keys (FK).
+Applied database constraints.
+Analyzed relationships between entities.
+Identified relationship cardinality (1:1 and 1:M).
+Prepared Entity Analysis Report.
+Prepared Entity Relationship Analysis Report.
 Entities Identified
-
-The following entities are used in the database:
-
 Customer
 Product
 Category
@@ -151,78 +118,27 @@ Order_Item
 Payment
 Shipment
 Review
-Relationships
-
-The system contains the following relationships:
-
-Customer → Order (One-to-Many)
-Category → Product (One-to-Many)
-Supplier → Product (One-to-Many)
-Order → Order_Item (One-to-Many)
-Product → Order_Item (One-to-Many)
-Order → Payment (One-to-One)
-Order → Shipment (One-to-One)
-Customer → Review (One-to-Many)
-Product → Review (One-to-Many)
-Database Features
-Well-defined entities and attributes
-Primary and Foreign Key relationships
-Data integrity using constraints
-Reduced data redundancy
-Efficient order management
-Easy database maintenance
-Scalable database design
-Software Used
+Relationship Types
+One-to-One (1:1)
+One-to-Many (1:M)
+Tools Used
 Microsoft Word
-Draw.io / Lucidchart (for ER Diagram)
-MySQL Database
+MySQL
 MySQL Workbench
+Draw.io (ER Diagram)
+Files Included
+Entity Analysis Report.docx
+Entity Relationship Analysis Report.docx
+README.md
 Learning Outcomes
-
-After completing this task, the following concepts were understood:
-
-Entity Identification
-Attribute Analysis
-Primary and Foreign Keys
-Database Constraints
-One-to-One Relationships
-One-to-Many Relationships
-Cardinality
-Database Normalization Basics
-ER Model Design
-Future Work
-
-The outputs of Week 2 will be used in the next stages of the project:
-
-ER Diagram Design
-Relational Schema Creation
-SQL Table Creation
-Data Insertion
-Query Implementation
-Database Testing
-
+Understood database entity identification.
+Learned Primary Key and Foreign Key concepts.
+Understood database constraints.
+Learned relationship mapping and cardinality.
+Improved database design skills.
 Conclusion
 
-The Week 2 activity successfully analyzed the entities and relationships of the ShopEasy – E-Commerce Order Management Database System. The reports provide a clear and organized database structure by defining entities, attributes, keys, constraints, and relationships. This serves as a strong foundation for designing the ER diagram and implementing the database in MySQL while ensuring data consistency, integrity, and efficient management of e-commerce operations.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Week 2 focused on analyzing the entities and their relationships in the ShopEasy E-Commerce Order Management Database System. The completed reports provide a strong foundation for creating the ER diagram and implementing the database in MySQL during the next phase of the project.
 
 
 
