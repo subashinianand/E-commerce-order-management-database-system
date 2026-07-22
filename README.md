@@ -138,8 +138,69 @@ Learned relationship mapping and cardinality.
 Improved database design skills.
 Conclusion
 
-Week 2 focused on analyzing the entities and their relationships in the ShopEasy E-Commerce Order Management Database System. The completed reports provide a strong foundation for creating the ER diagram and implementing the database in MySQL during the next phase of the project.
+Week 2 focused on analyzing the entities and their relationships in the ShopEasy E-Commerce Order Management Database System.
+The completed reports provide a strong foundation for creating the ER diagram and implementing the database in MySQL during 
+the next phase of the project.
 
 
 
+
+# Week 3 –
+Entity Relationship (ER) Diagram and Relational Schema Design
+
+
+**E-Commerce Order Management Database System**
+
+## Overview
+This Week 3 activity focuses on designing the **Entity Relationship (ER) Diagram** and converting it into a **Relational Schema** for the E-Commerce Order Management Database System. The objective is to transform the conceptual database design created in Week 2 into a logical database structure that can be implemented in the following weeks.
+
+## Objectives
+- Design a complete ER Diagram.
+- Represent all entities and their attributes.
+- Identify Primary Keys (PK) and Foreign Keys (FK).
+- Define relationships between entities.
+- Specify relationship cardinality and participation constraints.
+- Convert the ER model into a Relational Schema.
+- Verify the correctness of relationship mapping.
+- Prepare the ER Diagram and Relational Schema Design Report.
+
+## Entities Included
+- Customer
+- Product
+- Category
+- Supplier
+- Orders
+- Order_Item
+- Payment
+- Shipment
+
+## Relationships
+- Customer → Orders (1:M)
+- Orders → Order_Item (1:M)
+- Product → Order_Item (1:M)
+- Category → Product (1:M)
+- Supplier → Product (1:M)
+- Orders → Payment (1:1)
+- Orders → Shipment (1:1)
+
+## Relational Schema
+The relational schema includes all database tables with:
+- Primary Keys (PK)
+- Foreign Keys (FK)
+- Attributes
+- Relationship mapping between tables
+
+## Folder Structure
+```
+Week3/
+│── ER_Diagram.png
+│── Relational_Schema.pdf
+│── ER_Design_Report.pdf
+
+
+## Learning Outcomes
+- Understand ER modeling concepts.
+- Design relationships with appropriate cardinality.
+- Convert conceptual models into relational schemas.
+- Prepare database documentation for implementation.
 
